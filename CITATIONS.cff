@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the following research paper."
+title: "Tracing Gravitational Waves by integrating wavelet, PCA, and clustering analysis using Pulsar Timing Array Data"
+authors:
+
+name: "Adityan , Stanley Raj."
+affiliation: "Loyola College"
+orcid: "https://orcid.org/0009-0006-6979-0655"
+version: "1.0.0"
+date-released: "2025-02-18"
+url: "https://github.com/Adityan24/Pulsar-Timing-Analysis.git"
+license: "MIT"
+repository-code: "https://github.com/Adityan24/Pulsar-Timing-Analysis.git"
+keywords:
+
+gravitational waves
+
+pulsar timing array
+
+wavelet transformation
+
+PCA
+
+clustering analysis
+description: |
+This repository contains the code supporting the research paper "Tracing Gravitational Waves by integrating wavelet, PCA, and clustering analysis using Pulsar Timing Array Data." The project applies advanced signal processing and machine learning techniques to detect gravitational waves.
