@@ -1,4 +1,4 @@
-# Code from /mnt/data/hde.py
+
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -143,8 +143,8 @@ def model_HD(theta, A):
 
 # ---------------------- Main Execution ----------------------------
 if __name__ == '__main__':
-    # Set your directory path here (where the PTA data text files are located)
-    directory = "/users/adityan/downloads/ptadata"
+    # Set your directory path here (where the PTA data text files are located) 
+    directory = "/users/adityan/downloads/ptadata" 
     pulsar_data = read_pulsar_data(directory)
     
     # Get the known positions (do not simulate)
@@ -276,7 +276,6 @@ def process_pulsar(pulsar_name, time, residuals):
     return params_wavelet, errors_wavelet
 
 
-# Code from /mnt/data/psl_updated.py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -292,7 +291,7 @@ except ModuleNotFoundError:
     print("Error: The 'skfuzzy' library is not installed. Please install it using 'pip install scikit-fuzzy' and try again.")
     raise
 
-# List of dataset filenames
+# List of dataset filenames 
 datasets = [
     '/Users/adityan/Downloads/InPTADRIa-main/J1643-1224.DMtimeseries_corrected.csv',
     '/Users/adityan/Downloads/InPTADRIa-main/J1713+0747.DMtimeseries_corrected.csv',
@@ -503,9 +502,6 @@ for resolution in wavelet_cut_resolutions:
         plt.show()
 
 
-
-
-# Code from /mnt/data/pcap1.py
 import os
 import numpy as np
 import pandas as pd
@@ -517,7 +513,7 @@ from sklearn.decomposition import PCA
 
 # Directory containing PTA data files
 data_dir = "/users/adityan/downloads/ptadata"
-output_csv = "pta_timing_residuals.csv"
+output_csv = "pta_timing_residuals.csv" 
 
 def load_pta_data(directory):
     """Load PTA timing residuals from all txt files in the given directory."""
@@ -628,7 +624,6 @@ plt.title('PCA of Pulsar Timing Residuals')
 plt.show()
 
 
-# Code from /mnt/data/asw4.py
 import numpy as np
 import scipy.signal as signal
 import scipy.optimize as opt
@@ -745,7 +740,7 @@ def process_pta_data(directory):
     plt.show()
     
     return results
-
+# enter your data directory here
 pta_directory = "/users/adityan/downloads/ptadata"
 results = process_pta_data(pta_directory)
 print("Extracted Amplitude and Spectral Index:")
